@@ -6,9 +6,7 @@
   --button-header-font:
   --button-body-back: teal;
 }
-body {
-  
-}
+
 
 h1 {
   font-family: var(--heading-font);
