@@ -3,10 +3,13 @@
   --content-font: "Roboto", sans-serif;
   --background-header: rgb(214, 208, 213);
   --button-header-back: rgb(248, 191, 248);
-  --button-header-font:
   --button-body-back: teal;
 }
-
+body {
+  display: block;
+  margin: auto;
+  text-align: center;
+}
 
 h1 {
   font-family: var(--heading-font);
@@ -20,7 +23,6 @@ h2 {
 }
 
 p {
-  text-align: center;
   font-family: var(--content-font);
 }
 
@@ -31,7 +33,7 @@ i {
 .hero {
   text-align: center;
   background-color: rgb(246, 241, 246);
-  padding: 100px 60px
+  padding: 100px 60px;
 }
 
 .btn-branding {
@@ -42,4 +44,39 @@ i {
 
 .btn-branding:hover {
   background-color: violet;
+}
+
+.btn-content {
+  background-color: white;
+  font-family: var(--content-font);
+  border: 1px solid violet;
+}
+
+.btn-content:hover {
+  background-color: var(--button-header-back);
+}
+
+.project-description {
+  padding: 20px 20px;
+  margin-top: 40px;
+  text-align: start;
+  line-height: 1.75;
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 50px;
+  }
+
+  h2 {
+    font-size: 30px;
+    text-align: center;
+  }
+  .hero {
+    padding: 40px 20px;
+  }
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
 }
