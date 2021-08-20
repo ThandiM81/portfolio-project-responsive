@@ -65,6 +65,10 @@ i {
   background-color: var(--button-header-back);
 }
 
+img#home-photo {
+  max-height: 350px;
+}
+
 .project-description {
   padding: 20px 20px;
   margin-top: 40px;
