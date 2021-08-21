@@ -69,7 +69,20 @@ img#home-photo {
   max-height: 350px;
 }
 
+img.basic-cert,
+img.plus-cert {
+  max-height: 350px;
+  max-width: 100%;
+}
+
 .project-description {
+  padding: 20px 20px;
+  margin-top: 40px;
+  text-align: start;
+  line-height: 1.75;
+}
+
+.personal-description {
   padding: 20px 20px;
   margin-top: 40px;
   text-align: start;
@@ -89,6 +102,11 @@ img#home-photo {
     padding: 40px 20px;
   }
   .project-description {
+    padding: 0;
+    text-align: center;
+  }
+
+  .personal-description {
     padding: 0;
     text-align: center;
   }
