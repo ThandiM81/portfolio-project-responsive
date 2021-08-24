@@ -42,7 +42,7 @@ i {
 .hero {
   text-align: center;
   background-color: rgb(246, 241, 246);
-  padding: 100px 60px;
+  padding: 100px 60px 60px 60px;
 }
 
 .btn-branding {
@@ -92,6 +92,7 @@ img.plus-cert {
 @media (max-width: 900px) {
   h1 {
     font-size: 50px;
+    padding-top: 40px;
   }
 
   h2 {
